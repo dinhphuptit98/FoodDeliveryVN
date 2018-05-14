@@ -6,4 +6,8 @@
 //  Copyright © 2018 dinhphu98. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Restaurant {
+    
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF59EE720A94A99007BDD1A /* Restaurant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EF59EE620A94A99007BDD1A /* Restaurant.plist */; };
 		A3CC2FB020A6FC0300737887 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2FAF20A6FC0300737887 /* Cities.plist */; };
 		A3CC2FB220A6FC0C00737887 /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2FB120A6FC0C00737887 /* Districts.plist */; };
 		A3CC2FB520A6FF3800737887 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CC2FB420A6FF3800737887 /* DataService.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EF59EE620A94A99007BDD1A /* Restaurant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Restaurant.plist; sourceTree = "<group>"; };
 		A3CC2FAF20A6FC0300737887 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		A3CC2FB120A6FC0C00737887 /* Districts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
 		A3CC2FB420A6FF3800737887 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				A3CC2FAF20A6FC0300737887 /* Cities.plist */,
 				A3CC2FB120A6FC0C00737887 /* Districts.plist */,
+				4EF59EE620A94A99007BDD1A /* Restaurant.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -82,9 +85,9 @@
 		A3CC2FAD20A6FAC500737887 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A3D17ED720A6DDA800FD3C52 /* RestaurantTableViewController.swift */,
 				A3D17ED320A6DD6600FD3C52 /* CityTableViewController.swift */,
 				A3D17ED520A6DD8700FD3C52 /* DistrictTableViewController.swift */,
+				A3D17ED720A6DDA800FD3C52 /* RestaurantTableViewController.swift */,
 				A3D17ED920A6DDB100FD3C52 /* MealTableViewController.swift */,
 			);
 			path = View;
@@ -219,6 +222,7 @@
 				A3CC2FB220A6FC0C00737887 /* Districts.plist in Resources */,
 				A3CC2FC420A70AF100737887 /* Info.plist in Resources */,
 				A3D17EC720A6D74800FD3C52 /* Assets.xcassets in Resources */,
+				4EF59EE720A94A99007BDD1A /* Restaurant.plist in Resources */,
 				A3D17EC220A6D74800FD3C52 /* Main.storyboard in Resources */,
 				A3CC2FB020A6FC0300737887 /* Cities.plist in Resources */,
 			);

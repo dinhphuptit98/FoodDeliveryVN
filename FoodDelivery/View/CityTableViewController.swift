@@ -29,23 +29,26 @@ class CityTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return DataServices.shared.cities.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        cell.textLabel?.text = DataServices.shared.cities[indexPath.row].name
         // Configure the cell...
 
         return cell
     }
-    */
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        DataServices.shared.cityCodeSelected = DataServices.shared.cities[indexPath.row].cityCode
+        UserDefaults.standard.set(DataServices.shared.cities[indexPath.row].name,forKey : "City")
+    }
 
     /*
     // Override to support conditional editing of the table view.
