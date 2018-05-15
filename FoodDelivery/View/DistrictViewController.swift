@@ -1,14 +1,14 @@
 //
-//  DistrictTableViewController.swift
+//  DistrictViewController.swift
 //  FoodDelivery
 //
-//  Created by dinhphu98 on 5/12/18.
+//  Created by dinhphu98 on 5/14/18.
 //  Copyright © 2018 dinhphu98. All rights reserved.
 //
 
 import UIKit
 
-class DistrictTableViewController: UITableViewController {
+class DistrictViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,16 +39,14 @@ class DistrictTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell3", for: indexPath)
-        cell.textLabel?.text = DataServices.shared.districts[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell4", for: indexPath)
+            cell.textLabel?.text = DataServices.shared.districts[indexPath.row].name
         // Configure the cell...
-        
+
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        UserDefaults.standard.set(DataServices.shared.districts[indexPath.row], forKey: "District")
-    }
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

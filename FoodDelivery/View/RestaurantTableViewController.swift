@@ -9,15 +9,14 @@
 import UIKit
 
 class RestaurantTableViewController: UITableViewController {
-
+//    var restaurants: [Restaurant] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+//        DataServices.shared.getDataRestaurant {[weak self] restaurants in
+//            self?.restaurants = restaurants
+//            self?.tableView.reloadData()
+//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +28,25 @@ class RestaurantTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return DataServices.shared.restaurants.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as! RestaurantViewCell
+            cell.labelRestaurant.text =  DataServices.shared.restaurants[indexPath.row].name
+            cell.photoRestaurant.download(from: String(DataServices.shared.restaurants[indexPath.row].urlRestaurant))
+            
         return cell
     }
-    */
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].name, forKey: "Restaurant")
+    }
 
     /*
     // Override to support conditional editing of the table view.

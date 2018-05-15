@@ -1,14 +1,14 @@
 //
-//  StartViewController.swift
+//  ShowRestaurantViewController.swift
 //  FoodDelivery
 //
-//  Created by dinhphu98 on 5/12/18.
+//  Created by dinhphu98 on 5/15/18.
 //  Copyright © 2018 dinhphu98. All rights reserved.
 //
 
 import UIKit
 
-class StartViewController: UIViewController {
+class ShowRestaurantViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

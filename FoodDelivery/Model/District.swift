@@ -20,7 +20,9 @@ class District {
     }
     
     convenience init?(dictionary : DIC){
-        guard let cityCode = dictionary["CityCode"] as? Int , let districtsCode = dictionary["DictrictsCode"] as? Int, let name = dictionary["Name"] as? String else { return nil }
+        let cityCode = dictionary["CityCode"] as? Int ?? 0
+        let districtsCode = dictionary["DictrictsCode"] as? Int ?? 0
+        let name = dictionary["Name"] as? String ?? ""
         self.init(cityCode: cityCode, districtsCode: districtsCode, name: name)
     }
 }
