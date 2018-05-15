@@ -58,7 +58,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDl-33-mIf">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDl-33-mIf">
                                 <rect key="frame" x="112.5" y="544" width="150" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="LTM-lW-2RI"/>
@@ -66,7 +66,6 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="dang-ky"/>
                                 <connections>
-                                    <action selector="dangkyBt:" destination="gOg-Fr-D4U" eventType="touchUpInside" id="Wav-H9-Mk2"/>
                                     <segue destination="1r0-2n-dwB" kind="show" id="a07-JO-n8V"/>
                                 </connections>
                             </button>
@@ -80,6 +79,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pzd-yJ-bOV">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -88,23 +91,28 @@
                             <constraint firstItem="kD8-II-pIy" firstAttribute="top" secondItem="A0n-PY-1lD" secondAttribute="bottom" constant="20" id="3fe-C7-aN9"/>
                             <constraint firstItem="JDW-d2-ica" firstAttribute="top" secondItem="zq4-Q2-Yho" secondAttribute="top" id="4Jw-aJ-kj0"/>
                             <constraint firstItem="aDl-33-mIf" firstAttribute="top" secondItem="hkM-Iv-2Sh" secondAttribute="bottom" constant="30" id="4sI-dP-t4d"/>
+                            <constraint firstItem="Pzd-yJ-bOV" firstAttribute="top" secondItem="zq4-Q2-Yho" secondAttribute="top" id="5n2-Bq-Bww"/>
                             <constraint firstItem="zq4-Q2-Yho" firstAttribute="trailing" secondItem="JDW-d2-ica" secondAttribute="trailing" id="6lG-ed-hcW"/>
                             <constraint firstItem="aDl-33-mIf" firstAttribute="centerX" secondItem="hOi-f3-BMD" secondAttribute="centerX" id="CCW-Bu-yGp"/>
                             <constraint firstItem="hkM-Iv-2Sh" firstAttribute="top" secondItem="LmV-ZQ-J7g" secondAttribute="bottom" constant="20" id="EzH-jq-Jqf"/>
                             <constraint firstItem="kD8-II-pIy" firstAttribute="leading" secondItem="zq4-Q2-Yho" secondAttribute="leading" constant="10" id="Law-yi-H3w"/>
+                            <constraint firstItem="zq4-Q2-Yho" firstAttribute="trailing" secondItem="Pzd-yJ-bOV" secondAttribute="trailing" id="QK9-p0-m2C"/>
                             <constraint firstItem="A0n-PY-1lD" firstAttribute="leading" secondItem="zq4-Q2-Yho" secondAttribute="leading" constant="10" id="Ycd-rq-iem"/>
                             <constraint firstItem="LmV-ZQ-J7g" firstAttribute="leading" secondItem="zq4-Q2-Yho" secondAttribute="leading" constant="10" id="aHO-Z9-xGt"/>
+                            <constraint firstItem="zq4-Q2-Yho" firstAttribute="bottom" secondItem="Pzd-yJ-bOV" secondAttribute="bottom" id="c29-SZ-mOl"/>
                             <constraint firstItem="I81-pF-5Ss" firstAttribute="top" secondItem="JDW-d2-ica" secondAttribute="bottom" constant="10" id="gHL-l7-byz"/>
                             <constraint firstItem="LmV-ZQ-J7g" firstAttribute="top" secondItem="kD8-II-pIy" secondAttribute="bottom" constant="50" id="ngB-nv-ny6"/>
+                            <constraint firstItem="Pzd-yJ-bOV" firstAttribute="leading" secondItem="zq4-Q2-Yho" secondAttribute="leading" id="rhU-FU-cCI"/>
                             <constraint firstItem="A0n-PY-1lD" firstAttribute="top" secondItem="I81-pF-5Ss" secondAttribute="bottom" constant="50" id="sUu-A8-HAS"/>
                             <constraint firstItem="I81-pF-5Ss" firstAttribute="leading" secondItem="zq4-Q2-Yho" secondAttribute="leading" constant="10" id="xih-nv-7Zw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zq4-Q2-Yho"/>
                     </view>
                     <connections>
-                        <outlet property="dangkyButton" destination="aDl-33-mIf" id="Cay-W2-2Np"/>
+                        <outlet property="dangky" destination="aDl-33-mIf" id="RgS-5D-5Sa"/>
                         <outlet property="hovatenText" destination="kD8-II-pIy" id="Xfw-YS-sLH"/>
                         <outlet property="numberPhoneText" destination="hkM-Iv-2Sh" id="8X2-Xt-l01"/>
+                        <outlet property="whiteView" destination="Pzd-yJ-bOV" id="kNT-OA-Ree"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Gp-M6-UIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -542,6 +550,6 @@
         <image name="instagram" width="159" height="79"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OuY-vh-5id"/>
+        <segue reference="a07-JO-n8V"/>
     </inferredMetricsTieBreakers>
 </document>
