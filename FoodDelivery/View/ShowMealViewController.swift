@@ -1,26 +1,18 @@
 //
-//  ShowRestaurantViewController.swift
+//  ShowMealViewController.swift
 //  FoodDelivery
 //
-//  Created by dinhphu98 on 5/15/18.
+//  Created by dinhphu on 5/16/18.
 //  Copyright © 2018 dinhphu98. All rights reserved.
 //
 
 import UIKit
 
-class ShowRestaurantViewController: UIViewController {
+class ShowMealViewController: UIViewController {
 
-    @IBOutlet weak var photoRestaurant: UIImageView!
-    @IBOutlet weak var adressLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var propertiesLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = UserDefaults.standard.string(forKey: "name")
-        adressLabel.text = UserDefaults.standard.string(forKey: "adress")
-        timeLabel.text =  UserDefaults.standard.string(forKey: "time")
-        propertiesLabel.text =  UserDefaults.standard.string(forKey: "properties")
-        photoRestaurant.download(from: UserDefaults.standard.string(forKey: "urlRestaurant")!)
+
         // Do any additional setup after loading the view.
     }
 

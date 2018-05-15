@@ -24,6 +24,24 @@ class RestaurantTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func clickButtonLogOut(_ sender: UIBarButtonItem) {
+        
+        let alert = UIAlertController(title: "UIAlertController", message: "Bạn có muốn đăng xuất không?", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Có", style: UIAlertActionStyle.default, handler: { _ in
+            let application = UIApplication.shared.delegate as! AppDelegate
+            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "LogOut") as! StartViewController
+            let navigationController = UINavigationController(rootViewController: rootViewController)
+            application.window?.rootViewController = navigationController
+            
+        }))
+        alert.addAction(UIAlertAction(title: "Không", style: UIAlertActionStyle.cancel, handler: nil))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+        
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -45,7 +63,11 @@ class RestaurantTableViewController: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].name, forKey: "Restaurant")
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].name, forKey: "name")
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].urlRestaurant, forKey: "urlRestaurant")
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].adress, forKey: "adress")
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].time, forKey: "time")
+        UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].properties, forKey: "properties")
     }
 
     /*

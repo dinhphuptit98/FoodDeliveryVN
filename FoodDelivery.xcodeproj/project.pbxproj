@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1C7E1F20AB4A9B0077DA08 /* ShowMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1C7E1E20AB4A9B0077DA08 /* ShowMealViewController.swift */; };
+		4E1C7E2120AB4B180077DA08 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1C7E2020AB4B180077DA08 /* Rating.swift */; };
 		4EF59EE720A94A99007BDD1A /* Restaurant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EF59EE620A94A99007BDD1A /* Restaurant.plist */; };
 		A31D305220AA06B500B67002 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D305120AA06B500B67002 /* RestaurantViewCell.swift */; };
 		A32E2E3E20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1C7E1E20AB4A9B0077DA08 /* ShowMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMealViewController.swift; sourceTree = "<group>"; };
+		4E1C7E2020AB4B180077DA08 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		4EF59EE620A94A99007BDD1A /* Restaurant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Restaurant.plist; sourceTree = "<group>"; };
 		A31D305120AA06B500B67002 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRestaurantViewController.swift; sourceTree = "<group>"; };
@@ -91,11 +95,12 @@
 			children = (
 				A3D17EE120A6E32900FD3C52 /* StartViewController.swift */,
 				A3D17ED720A6DDA800FD3C52 /* RestaurantTableViewController.swift */,
+				A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */,
 				A3D17ED920A6DDB100FD3C52 /* MealTableViewController.swift */,
+				4E1C7E1E20AB4A9B0077DA08 /* ShowMealViewController.swift */,
 				A3D17EDB20A6DDD700FD3C52 /* InformationViewController.swift */,
 				A3D17ED320A6DD6600FD3C52 /* CityTableViewController.swift */,
 				A3CAD4AD20A9B6E500D13085 /* DistrictViewController.swift */,
-				A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */,
 				A32E2E3F20AA8C8800BADCF6 /* LOGINViewController.swift */,
 				A32E2E4320AAA4F400BADCF6 /* REGISTERViewController.swift */,
 			);
@@ -111,6 +116,7 @@
 				A3CC2FB420A6FF3800737887 /* DataService.swift */,
 				A3CC2FBA20A6FF7800737887 /* Meal.swift */,
 				A3D3C67120A9064000AC38E4 /* Extention.swift */,
+				4E1C7E2020AB4B180077DA08 /* Rating.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,9 +241,11 @@
 			files = (
 				A3D17EC520A6D74800FD3C52 /* FoodDelivery.xcdatamodeld in Sources */,
 				A3CC2FBB20A6FF7800737887 /* Meal.swift in Sources */,
+				4E1C7E1F20AB4A9B0077DA08 /* ShowMealViewController.swift in Sources */,
 				A3D17ED820A6DDA800FD3C52 /* RestaurantTableViewController.swift in Sources */,
 				A3D17ED420A6DD6600FD3C52 /* CityTableViewController.swift in Sources */,
 				A3CC2FC020A6FFCB00737887 /* Restaurant.swift in Sources */,
+				4E1C7E2120AB4B180077DA08 /* Rating.swift in Sources */,
 				A3D17EE220A6E32900FD3C52 /* StartViewController.swift in Sources */,
 				A32E2E4020AA8C8800BADCF6 /* LOGINViewController.swift in Sources */,
 				A3CAD4AE20A9B6E500D13085 /* DistrictViewController.swift in Sources */,

@@ -14,7 +14,7 @@ class REGISTERViewController: UIViewController , UITextFieldDelegate {
     @IBOutlet weak var numberPhoneText: UITextField!
     @IBOutlet weak var dangky: UIButton!
     
-    @IBOutlet weak var whiteView: UIView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +25,7 @@ class REGISTERViewController: UIViewController , UITextFieldDelegate {
         
         // Do any additional setup after loading the view.
     }
-    override func viewWillAppear(_ animated: Bool) {
-        if UserDefaults.standard.string(forKey: "sdt") != "" && UserDefaults.standard.string(forKey: "hovaten") != "" {
-            whiteView.isHidden = false
-        }
-    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
