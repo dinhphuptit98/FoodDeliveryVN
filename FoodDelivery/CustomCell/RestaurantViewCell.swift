@@ -11,17 +11,18 @@ import UIKit
 class RestaurantViewCell: UITableViewCell {
     @IBOutlet weak var photoRestaurant: UIImageView!
     @IBOutlet weak var labelRestaurant: UILabel!
+    @IBOutlet weak var showB: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-
+        
      
         // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
 
