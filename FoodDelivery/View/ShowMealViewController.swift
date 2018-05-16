@@ -9,10 +9,16 @@
 import UIKit
 
 class ShowMealViewController: UIViewController {
-
+    @IBOutlet weak var imageMeal: UIImageView!
+    @IBOutlet weak var mealName: UILabel!
+    
+    @IBOutlet weak var mealTotal: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imageMeal.download(from: UserDefaults.standard.string(forKey: "urlMeal")!)
+        mealName.text = UserDefaults.standard.string(forKey: "nameMeal")
+        mealTotal.text = UserDefaults.standard.string(forKey: "totalMeal")
         // Do any additional setup after loading the view.
     }
 

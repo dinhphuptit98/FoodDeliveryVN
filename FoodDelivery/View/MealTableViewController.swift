@@ -29,23 +29,30 @@ class MealTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return DataServices.shared.meals.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! MealTableViewCell
+            cell.nameMeal.text = DataServices.shared.meals[indexPath.row].nameMeal
+            cell.totalMeal.text = DataServices.shared.meals[indexPath.row].total
+            cell.photoMeal.download(from: DataServices.shared.meals[indexPath.row].urlMeal)
+        
         // Configure the cell...
 
         return cell
     }
-    */
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].nameMeal, forKey: "nameMeal")
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].total, forKey: "totalMeal")
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].urlMeal, forKey: "urlMeal")
+    }
 
     /*
     // Override to support conditional editing of the table view.

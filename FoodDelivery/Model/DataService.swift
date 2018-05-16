@@ -76,6 +76,8 @@ class DataServices {
 //        }
 //    }
     private var _restaurants: [Restaurant]?
+    
+    var restaurantCodeSelected : Int?
     var restaurants : [Restaurant] {
         set {
             _restaurants = newValue
@@ -95,6 +97,31 @@ class DataServices {
         for restaurantsDictionary in restaurantsDictionaries {
             if let restaurant = Restaurant(dictionary: restaurantsDictionary) {
                 _restaurants?.append(restaurant)
+            }
+        }
+    }
+    
+    private var _meals : [Meal]?
+    
+    var meals : [Meal] {
+        set {
+            _meals = newValue
+        }
+        get {
+            if _meals == nil {
+                getDataMeal()
+            }
+            return _meals == nil ? [] : (_meals ?? []).filter({ $0.restaurantCode == restaurantCodeSelected!})
+        }
+    }
+    
+    func getDataMeal() {
+        _meals = []
+        guard let dictionary = getDataFromPlist(plist: "Meal.plist") else { return  }
+        guard let mealsDictionaries = dictionary["Meal"] as? [DIC] else { return }
+        for mealsDictionary in mealsDictionaries {
+            if let meal = Meal(dictionary: mealsDictionary) {
+                _meals?.append(meal)
             }
         }
     }
