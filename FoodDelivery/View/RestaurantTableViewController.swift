@@ -13,6 +13,10 @@ class RestaurantTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let alert = UIAlertController(title: UserDefaults.standard.string(forKey: "hovaten"), message: "Chúng Tôi Đang Có Chương Trình Giảm Giá Cho Khách Hàng Mới 50% Và Khách Hàng Trên 5 Năm Với 2 Món Ăn Miễn Phí.Hãy Nhanh Tay Đặt Món Để NHận Ưu Đãi Và Thưởng THức Những Món Ăn Dinh Dưỡng Trong Mùa Hè Này", preferredStyle: UIAlertControllerStyle.alert)
+
+        alert.addAction(UIAlertAction(title: "Đóng", style: UIAlertActionStyle.cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
 //        DataServices.shared.getDataRestaurant {[weak self] restaurants in
 //            self?.restaurants = restaurants
 //            self?.tableView.reloadData()
@@ -24,24 +28,7 @@ class RestaurantTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func clickButtonLogOut(_ sender: UIBarButtonItem) {
-        
-        let alert = UIAlertController(title: "UIAlertController", message: "Bạn có muốn đăng xuất không?", preferredStyle: UIAlertControllerStyle.alert)
-        
-        alert.addAction(UIAlertAction(title: "Có", style: UIAlertActionStyle.default, handler: { _ in
-            let application = UIApplication.shared.delegate as! AppDelegate
-            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let rootViewController = storyboard.instantiateViewController(withIdentifier: "LogOut") as! StartViewController
-            let navigationController = UINavigationController(rootViewController: rootViewController)
-            application.window?.rootViewController = navigationController
-            
-        }))
-        alert.addAction(UIAlertAction(title: "Không", style: UIAlertActionStyle.cancel, handler: nil))
-        
-        // show the alert
-        self.present(alert, animated: true, completion: nil)
-        
-    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {

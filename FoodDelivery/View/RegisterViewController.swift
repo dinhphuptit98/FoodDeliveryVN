@@ -32,10 +32,6 @@ class REGISTERViewController: UIViewController , UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func dangkyBt(_ sender: UIButton) {
-        
-    }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

@@ -67,7 +67,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="dang-ky"/>
                                 <connections>
-                                    <segue destination="1r0-2n-dwB" kind="show" id="a07-JO-n8V"/>
+                                    <segue destination="Y9N-9H-vDX" kind="show" id="yAS-p5-HdR"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập Số Điện Thoại" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hkM-Iv-2Sh">
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Gp-M6-UIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-999.20000000000005" y="1564.7676161919042"/>
+            <point key="canvasLocation" x="558" y="134"/>
         </scene>
         <!--CITY-->
         <scene sceneID="1LO-2M-Idc">
@@ -138,11 +138,17 @@
                             <outlet property="delegate" destination="Y9N-9H-vDX" id="7RS-8V-eAY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CITY" id="nzY-Dv-Shc"/>
+                    <navigationItem key="navigationItem" title="CITY" id="nzY-Dv-Shc">
+                        <barButtonItem key="rightBarButtonItem" title="Đăng Xuất" id="Knq-LB-8ed">
+                            <connections>
+                                <action selector="clickButtonLogOut:" destination="Y9N-9H-vDX" id="meg-87-KUH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxM-s4-4v7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-201" y="1602"/>
+            <point key="canvasLocation" x="1334" y="134"/>
         </scene>
         <!--DISTRICT-->
         <scene sceneID="wYN-ay-9OF">
@@ -160,6 +166,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="1r0-2n-dwB" kind="show" id="fKD-Pc-ble"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -171,7 +180,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnI-FV-1o4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="558" y="1602"/>
+            <point key="canvasLocation" x="2138" y="134"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="Qrb-eH-36c">
@@ -278,12 +287,12 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HI-Jl-JdF">
                                             <rect key="frame" x="21" y="16" width="249" height="35"/>
-                                            <color key="backgroundColor" red="1" green="0.96942390690000002" blue="0.054676303080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="35" id="D0w-pd-e4V"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.23592634525949363" green="0.28427687626732623" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5e-rE-Tcf">
@@ -324,17 +333,11 @@
                             <outlet property="delegate" destination="1r0-2n-dwB" id="8G7-yN-rEw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="RESTAURANT" id="CcH-fd-1d4">
-                        <barButtonItem key="rightBarButtonItem" title=" Đăng Xuất" id="f7c-SI-cWC">
-                            <connections>
-                                <action selector="clickButtonLogOut:" destination="1r0-2n-dwB" id="dzI-jH-Wfm"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="RESTAURANT" id="CcH-fd-1d4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyA-SR-Mtv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231.19999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-231" y="882"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Opl-KW-0xf">
@@ -429,7 +432,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqx-cO-yse" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-999.20000000000005" y="854.1229385307347"/>
+            <point key="canvasLocation" x="-231" y="134"/>
         </scene>
         <!--MEALS-->
         <scene sceneID="Uwg-u5-eJL">
@@ -462,7 +465,7 @@
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt2-O1-SQ4">
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="40"/>
-                                                            <color key="backgroundColor" red="0.9938359772031593" green="1" blue="0.043179138368208969" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="FHQ-38-79R"/>
                                                                 <constraint firstAttribute="width" constant="50" id="hCM-Gn-TvO"/>
@@ -473,13 +476,13 @@
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="btL-bY-dri">
                                                             <rect key="frame" x="50" y="0.0" width="150" height="40"/>
-                                                            <color key="backgroundColor" red="0.17081908439999999" green="0.85369129040000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="H0P-4R-gdj"/>
                                                                 <constraint firstAttribute="width" constant="150" id="VqC-QM-Bim"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -489,7 +492,7 @@
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVY-oz-j7c">
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="40"/>
-                                                            <color key="backgroundColor" red="0.97244793996707635" green="1" blue="0.056440210011803549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="kJB-Lb-wvx"/>
                                                                 <constraint firstAttribute="height" constant="40" id="ud0-OJ-FHr"/>
@@ -500,13 +503,13 @@
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST0-dL-cGc">
                                                             <rect key="frame" x="50" y="0.0" width="150" height="40"/>
-                                                            <color key="backgroundColor" red="0.17081908439999999" green="0.85369129040000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="dI8-zg-bIe"/>
                                                                 <constraint firstAttribute="width" constant="150" id="gAQ-2O-Rbu"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -535,7 +538,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s1U-vu-kRN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="559" y="134"/>
+            <point key="canvasLocation" x="558" y="882"/>
         </scene>
         <!--Title-->
         <scene sceneID="eM7-Vy-loh">
@@ -652,9 +655,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jgU-q4-sWy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231.19999999999999" y="853.22338830584715"/>
+            <point key="canvasLocation" x="-231" y="1576"/>
         </scene>
-        <!--Show Meal View Controller-->
+        <!--Title-->
         <scene sceneID="KdM-YW-ZIU">
             <objects>
                 <viewController id="oBW-VA-DIf" customClass="ShowMealViewController" customModule="FoodDelivery" customModuleProvider="target" sceneMemberID="viewController">
@@ -664,10 +667,48 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5tW-jJ-xqB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="9te-7L-NBZ">
+                        <barButtonItem key="rightBarButtonItem" title="Đặt Món" id="AZg-Mm-6hO">
+                            <connections>
+                                <segue destination="dSo-fr-kHE" kind="show" id="Jew-Jv-JZm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcO-pH-yOZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="558" y="854"/>
+            <point key="canvasLocation" x="558" y="1576"/>
+        </scene>
+        <!--BILL-->
+        <scene sceneID="OEs-57-B3f">
+            <objects>
+                <tableViewController id="dSo-fr-kHE" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5Ez-jc-cgu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="JUv-f1-7DH">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JUv-f1-7DH" id="h4H-nw-OvE">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dSo-fr-kHE" id="1Qz-Xk-OFD"/>
+                            <outlet property="delegate" destination="dSo-fr-kHE" id="A0u-ep-wFs"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="BILL" id="Xec-mh-9RE">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="j7E-RY-GTT"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ZS-vA-VKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="1566"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fBN-eP-cGi">
