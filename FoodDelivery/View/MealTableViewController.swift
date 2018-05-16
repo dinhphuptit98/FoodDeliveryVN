@@ -42,7 +42,7 @@ class MealTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! MealTableViewCell
             cell.nameMeal.text = DataServices.shared.meals[indexPath.row].nameMeal
             cell.totalMeal.text = DataServices.shared.meals[indexPath.row].total
-            cell.photoMeal.download(from: DataServices.shared.meals[indexPath.row].urlMeal)
+            cell.photoMeal.image = UIImage(named: DataServices.shared.meals[indexPath.row].photo)
         
         // Configure the cell...
 
@@ -51,7 +51,10 @@ class MealTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].nameMeal, forKey: "nameMeal")
         UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].total, forKey: "totalMeal")
-        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].urlMeal, forKey: "urlMeal")
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].photo, forKey: "photo")
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].goal, forKey: "goal")
+        UserDefaults.standard.set(DataServices.shared.meals[indexPath.row].method, forKey: "method")
+        
     }
 
     /*

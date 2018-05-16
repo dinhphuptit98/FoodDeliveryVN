@@ -41,7 +41,7 @@ class REGISTERViewController: UIViewController , UITextFieldDelegate {
             dangky.isEnabled = true
             UserDefaults.standard.set(hovatenText.text, forKey: "hovaten")
             UserDefaults.standard.set(numberPhoneText.text, forKey: "sdt")
-            print(String(UserDefaults.standard.string(forKey: "sdt")!))
+           
     }
     
     

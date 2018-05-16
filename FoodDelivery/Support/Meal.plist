@@ -5,6 +5,19 @@
 	<key>Meal</key>
 	<array>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>5 quả cà chua chín mọng (450 grams)
+1 củ hành tím nhỏ ( 10 gram)
+2 nhánh tỏi lớn, bóc vỏ bổ làm đôi
+1/8 -1/4 thìa nhỏ muối trắng ( 1/8 -1/4 teaspoon of salt)
+2 thìa lớn dầu ô liu ( 2 tablespoons olive oil)
+1 thìa lớn phomai Parmessan cheese bào nhỏ ( cái này không cần thiết)
+1 nắm lá húng quế tây thái nhỏ ( 1 bunch of Italian basil chopped)
+1 chiếc bánh mỳ dài French Baguette ( bánh mỳ không đường) </string>
+			<key>New item</key>
+			<string>m1</string>
 			<key>MealCode</key>
 			<integer>1</integer>
 			<key>NameMeal</key>
@@ -13,10 +26,20 @@
 			<string>100.000đ</string>
 			<key>RestaurantCode</key>
 			<integer>0</integer>
-			<key>URL</key>
-			<string>https://www.simplyrecipes.com/wp-content/uploads/2014/08/bruschetta-tomato-basil-horiz-a-1600.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m2</string>
 			<key>MealCode</key>
 			<integer>2</integer>
 			<key>NameMeal</key>
@@ -25,10 +48,20 @@
 			<string>75.000đ</string>
 			<key>RestaurantCode</key>
 			<integer>0</integer>
-			<key>URL</key>
-			<string>http://nourishedkitchen.com/wp-content/uploads/2016/04/bean-and-vegetable-soup-3-1.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>4 duck breasts
+75g/3oz white caster sugar
+2 oranges, zest and juice
+2 tbsp sherry vinegar
+300ml/11fl oz reduced chicken stock
+3 carrots, peeled and sliced
+3 courgettes, thickly sliced</string>
+			<key>New item</key>
+			<string>m3</string>
 			<key>MealCode</key>
 			<integer>3</integer>
 			<key>NameMeal</key>
@@ -37,10 +70,16 @@
 			<string>125.000đ</string>
 			<key>RestaurantCode</key>
 			<integer>0</integer>
-			<key>URL</key>
-			<string>http://3.bp.blogspot.com/-xbR8kdQcE7o/Tpz1PYh9TfI/AAAAAAAAENE/traFuMtSKcs/s1600/DuckWithOrangeGlaze-1531.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- Phần nạc lóc ra từ hai miếng lườn hoặc đùi vịt (phần tỏi đùi chứ không phải phần thịt góc tư đùi sau của con vịt).
+- Vài củ gừng và ít lá gừng nếu có.
+- Gia vị, xửng hấp. Ít rau thơm như húng cay, vài trái khế xanh, chuối chát.</string>
+			<key>New item</key>
+			<string>m4</string>
 			<key>Total</key>
 			<string>200.000đ</string>
 			<key>NameMeal</key>
@@ -49,10 +88,24 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>1</integer>
-			<key>URL</key>
-			<string>https://lamthenao.com/uploads/2016/07/cach-lam-mon-vit-nau-gia-cay-5.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- 450g tôm cỡ trung bình, bỏ đầu
+
+- 45g tinh bột ngô (hay một loại tinh bột nào mà bạn thích)
+
+- 5g cà phê muối biển
+
+- 12g hạt tiêu đen hoặc trắng
+
+- Dầu để chiên
+
+- 3 tép tỏi, băm nhỏ</string>
+			<key>New item</key>
+			<string>m5</string>
 			<key>Total</key>
 			<string>125.000đ</string>
 			<key>NameMeal</key>
@@ -61,10 +114,22 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>1</integer>
-			<key>URL</key>
-			<string>http://hieuhaisan.com/contents_hieuhaisan/uploads/images/tom-su-nuong-muoi-ot-hhs.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- Thịt bò: Để có miếng thịt ngon, mềm và thơm nhất thì các bạn nên chọn phần vai hoặc phần thịt ba chỉ bò để nướng.
+
+- Mật ong
+
+- Ngũ vị hương
+
+- Hành, tỏi, sả, hạt điều, bột quế, dầu hào
+
+- Các nguyên liệu khác: Hạt tiêu, bột ớt, đường, mắm, dầu ăn.</string>
+			<key>New item</key>
+			<string>m6</string>
 			<key>Total</key>
 			<string>350.000đ</string>
 			<key>NameMeal</key>
@@ -73,10 +138,22 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>1</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g3/29666/s180x180/foody-xuan-xuan-47-ma-may-280-635943552941290610.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- Thịt bò: Để có miếng thịt ngon, mềm và thơm nhất thì các bạn nên chọn phần vai hoặc phần thịt ba chỉ bò để nướng.
+
+- Mật ong
+
+- Ngũ vị hương
+
+- Hành, tỏi, sả, hạt điều, bột quế, dầu hào
+
+- Các nguyên liệu khác: Hạt tiêu, bột ớt, đường, mắm, dầu ăn.</string>
+			<key>New item</key>
+			<string>m7</string>
 			<key>Total</key>
 			<string>450.000đ</string>
 			<key>NameMeal</key>
@@ -85,10 +162,23 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>2</integer>
-			<key>URL</key>
-			<string>http://toinayangi.vn/wp-content/uploads/2014/11/thit-bo-ham-khoai-tay-1.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– Mực ống: 400g, bạn nên chọn con lớn một chút nhé;
+
+– Hành tây: 1 củ;
+– Sả: 3 củ;
+– Gừng: 1 nhánh nhỏ;
+– Ớt sừng: 5 trái;
+– Tiêu sọ: 1 nhánh;
+– Hành, tỏi: 50g, lượng tỏi nhiều hơn nhé;
+– Hành lá, ngó rí: 30g;
+– Gia vị: hạt nêm, nước mắm, dầu ăn, bột ngọt, ớt bột, tiêu.</string>
+			<key>New item</key>
+			<string>m8</string>
 			<key>Total</key>
 			<string>250.000đ</string>
 			<key>NameMeal</key>
@@ -97,10 +187,22 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>2</integer>
-			<key>URL</key>
-			<string>https://vcdn-ngoisao.vnecdn.net/2017/09/25/mxtc-1-2430-1506304522.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– 600g cánh gà
+
+– 5 quả me
+
+– 4 quả cà chua
+
+– Hành, ớt
+
+– Gia vị</string>
+			<key>New item</key>
+			<string>m9</string>
 			<key>Total</key>
 			<string>325.000đ</string>
 			<key>NameMeal</key>
@@ -109,10 +211,24 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>2</integer>
-			<key>URL</key>
-			<string>https://pastaxi-manager.onepas.vn/content/uploads/articles/cach-lam-canh-ga-sot-me/cach-lam-canh-ga-xot-me-8.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>0.5 đuôi bò
+0.5 sườn bò
+0.5 kg bắp bò (có thể thay thế bằng thịt nạm, gầu bò tùy sở thích mẹ nhé)
+1/4 củ hành tây to, 5 củ hành khô, 
+1 thìa cà phê hạt mùi già
+5-6 rễ cây mùi (nếu không tìm được có thể bỏ qua nguyên liệu này)
+1 thảo quả, 2 hoa hồi nhỏ, 1 thanh quế nhỏ
+2 lóng mía (mỗi lóng dài chừng 10 cm)
+Hạt nêm, muối
+Hành, rau mùi thái nhỏ
+Bánh phở ăn kèm</string>
+			<key>New item</key>
+			<string>m10</string>
 			<key>Total</key>
 			<string>50.000đ</string>
 			<key>NameMeal</key>
@@ -121,10 +237,23 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>3</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g23/228947/prof/s640x400/foody-mobile-c2-jpg-748-635968566033229535.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Một 1kg thịt cá ( cá trắm, cá rô, cá chép, cà ngừ, cá basa,…)
+Hành lá 4 nhánh
+50g hành khô
+Hành tím 2 củ
+Lá chanh non
+2 quả trứng gà
+3 quả ớt sừng
+50g mùi tây, 50g thì là.
+Các loại rau sống ăn kèm.
+Gia vị: Đường, nước mắm, hạt tiêu, bột canh, dầu ăn,hạt nêm…</string>
+			<key>New item</key>
+			<string>m11</string>
 			<key>Total</key>
 			<string>40.000đ</string>
 			<key>NameMeal</key>
@@ -133,10 +262,18 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>3</integer>
-			<key>URL</key>
-			<string>http://www.savourydays.com/wp-content/uploads/2012/09/ChaCaMuc1.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Nguyên liệu chính của món lẩu mắm U Minh cũng là mắm sặc (nhưng phải là mắm ngon). Mắm được nấu rả thịt, lược kỹ xương, nêm nếm bột ngọt, đường cho vừa ăn rồi cho vào lẩu. Để cho dậy mùi người ta còn bổ sung thêm một ít lá sả bằm mịn, phần gốc sả đập giập cho vào lẩu. Bí quyết làm cho nước lẩu có vị béo, thơm và sánh người ta cho vào một ít sữa bò thay đường. Lẩu mắm hợp với nhiều loại thịt hay cá tùy thích. Nhưng lẩu mắm U Minh nhất định phải được nấu với cá đồng. Ngon nhất là lươn, cá rô mề, cá lóc to hoặc cá trê trắng.
+
+Ngoài cá ra, lẩu mắm có thể được bổ sung thêm thịt cua đồng, ốc lác, thịt ba rọi,... Nhưng điều thú vị nhất khi ăn món lẩu mắm là được thưởng thức rất nhiều loại rau đồng. Lẩu mắm là món quy tụ nhiều loại rau hoang dã nhất. Có thể đúng khi nói rằng, không có món ăn nào trên thế giới lại được ăn kèm với nhiều lọai rau như lẩu mắm.
+
+Lẩu mắm ăn kèm với rất nhiều rau, như bông súng, đọt nhãn lồng, cải xanh, rau đắng, càng cua, bông so đũa, bắp chuối, ớt hiểm, tỏi, đọt choại </string>
+			<key>New item</key>
+			<string>m12</string>
 			<key>Total</key>
 			<string>750.000đ</string>
 			<key>NameMeal</key>
@@ -145,10 +282,24 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>3</integer>
-			<key>URL</key>
-			<string>https://thuonghieuvietnoitieng.vn/upload_images/images/l%E1%BA%A9u%20m%E1%BA%AFm%20(1).jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– 400 gram bột gạo
+
+– 100 gram bột năng
+
+– 200g nước cốt dừa
+
+– Bì lợn dạng sợi + thính
+
+– Thịt nạc heo (tùy thích)
+
+– Nước mắm, đường, hành lá, muối, hạt nêm, xà lách, dưa leo, rau thơm.</string>
+			<key>New item</key>
+			<string>m13</string>
 			<key>Total</key>
 			<string>100.000đ</string>
 			<key>NameMeal</key>
@@ -157,10 +308,24 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>4</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g1/3155/prof/s640x400/foody-mobile-banh-tam-bi-to-chau.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>100gr đậu xanh nguyên hạt
+– 200gr bột gạo
+– 200gr thịt heo bằm có lẫn mỡ
+– 25gr đậu nành
+– 200gr tôm
+– 250ml nước
+– 5 cọng hành lá
+– Hành tím
+– 1/2 muỗng cà phê muối
+– 1 muỗng cà phê đường
+– Dầu ăn.</string>
+			<key>New item</key>
+			<string>m14</string>
 			<key>Total</key>
 			<string>75.000đ</string>
 			<key>NameMeal</key>
@@ -169,10 +334,19 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>4</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g66/655555/prof/s640x400/foody-mobile-foody-mobile-banh_co-674-636289841158289065.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- 1/4 con vịt (khoảng 600gr)
+- 1 củ khoai môn (300gr)
+- 1 bó rau muống
+- 1 trái dừa xiêm
+- 0.5 kg bún tươi
+- Các gia vị như chao đỏ, tỏi, hành củ, ớt, gừng, hành lá, rượu trắng, muối, mì chính, đường, tiêu, chanh.</string>
+			<key>New item</key>
+			<string>m15</string>
 			<key>Total</key>
 			<string>300.000đ</string>
 			<key>NameMeal</key>
@@ -181,10 +355,22 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>4</integer>
-			<key>URL</key>
-			<string>https://anh.24h.com.vn/upload/3-2017/images/2017-08-12/1502550487-112542-303404-vit-nau-chao-tai-nha-hang-xoay-body-2.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– 1con cá lóc
+
+– 1kg bún tươi (dành cho 2-3 người ăn)
+
+– Ngải bún (gia vị đặc trưng của các món bún miền Tây)
+
+– Sả, ớt, nghệ, chanh, mắm, muối, đường
+
+– Rau thơm các loại</string>
+			<key>New item</key>
+			<string>m16</string>
 			<key>Total</key>
 			<string>35.000đ</string>
 			<key>NameMeal</key>
@@ -193,10 +379,32 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>5</integer>
-			<key>URL</key>
-			<string>http://odacsan.com/wp-content/uploads/2014/10/bun_ca_kien_giang.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– Hủ tiếu: 1 ký
+
+– Xương ống: 1 ký
+
+– Gan heo: 1 lá
+
+– Thịt thăn: 300g
+
+– Thịt xay: 300g
+
+– Tôm: 300g
+
+– Giá đỗ: 100g
+
+– Cần tây: 1 bó
+
+– Hành lá, chanh, ớt
+
+– Gia vị</string>
+			<key>New item</key>
+			<string>m17</string>
 			<key>Total</key>
 			<string>40.000đ</string>
 			<key>NameMeal</key>
@@ -205,10 +413,23 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>5</integer>
-			<key>URL</key>
-			<string>https://znews-photo-td.zadn.vn/w660/Uploaded/NokaRW/2015_10_20/hu_tieu_1.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>- Gạo tấm: Bạn có thể chọn mua gạo tấm ở siêu thị hay các tiệm tạp hoá gần nhà, tuỳ theo số lượng người ăn mà bạn chọn nấu bao nhiêu gạo. Chỉ lưu ý với bạn 1 điều là Cơm tấm sau khi nấu xong phải tơi, xốp, không khô quá cũng không bị nhão. Cách nấu cơm gạo tấm thì cũng không có gì khó, phần quan trọng khi chế biến cơm tấm sườn nướng sẽ nằm ở phần tẩm ướp gia vị và nướng sườn ngon.
+
+- 500 gram sườn cốt lết chọn loại còn dính xương, có mỡ viền bên ngoài thịt sẽ ngọt béo và mềm hơn.
+Hỗn hợp nước ướp thịt gồm: 1 muỗng canh mật ong, 1 muỗng cà phê muối, 2 muỗng canh nước mắm ngon, 1 muỗng canh dầu hào, 2 muỗng cà phê sữa đặc có đường, 2 muỗng canh dầu ăn, 2 muỗng canh đường, 1 muỗng canh nước soda, vài giọt chanh, tỏi và củ hành tím xay nhuyễn.
+
+- Hành lá
+
+- Nước mắm, đường, chanh, tỏi, ớt
+
+- Cà rốt, củ cải trắng</string>
+			<key>New item</key>
+			<string>m18</string>
 			<key>Total</key>
 			<string>50.000đ</string>
 			<key>NameMeal</key>
@@ -217,10 +438,30 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>5</integer>
-			<key>URL</key>
-			<string>https://daotaobeptruong.vn/images/cach_lam_nuoc_mam_an_com_tam.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>300 gr Thịt heo (xay nhuyễn)
+200 gr Tôm (bóc vỏ thái hạt lựu)
+50 gr Miến (ngâm mềm, cắt khúc 1 - 2cm)
+50 gr Nấm mèo (Ngâm, rửa sạch, thái sợi)
+50 gr Khoai môn (Bào sợi)
+50 gr Cà rốt (Bào sợi)
+30 gr hành lá (Thái hạt lựu)
+30 gr Húng quế (Thái nhỏ)
+30 gr hành tím (Băm nhỏ, vắt nước)
+100 gr củ sắn (Băm nhỏ, vắt nước)
+2 bịch bánh tráng pía
+50 gr xà lách (Rửa sạch)
+50 gr húng quế (Rửa sạch)
+50 gr Húng cây (Rửa sạch)
+50 gr tía tô (rửa sạch)
+50 gr diếp cá (rửa sạch)
+100 gr thịt cua nếu thích</string>
+			<key>New item</key>
+			<string>m19</string>
 			<key>Total</key>
 			<string>300.000đ</string>
 			<key>NameMeal</key>
@@ -229,10 +470,23 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>6</integer>
-			<key>URL</key>
-			<string>http://www.monngon.tv/uploads/images/2017/05/11/80606cde1a5d9092e21f2f7f4fa2d047-cach-lam-cha-gio-tom-thit-bam-slide.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– Tôm sú loại vừa: 300g (Nên tham khảo cách chọn hải sản để luôn có được những thực phẩm tươi ngon, hấp dẫn);
+– Thịt ba chỉ: 300g;
+– Bún rối: 600g;
+– Dưa leo: 1 quả;
+– Cà rốt: 1 củ;
+– Rau sống ăn kèm: 150g rau thơm, 200g rau xà lách, 100g ngò rí, 150g cải non;
+– Nguyên liệu làm nước chấm: 100ml mắm nêm, 300g thơm, 1 củ tỏi, 3 trái ớt sừng, đường;
+– Chanh: 1 quả;
+– Gia vị: đường, bột ngọt, nước mắm, ớt bột, dầu ăn;
+– Bánh đa nem dùng để cuốn: 1 gói 50 cái;</string>
+			<key>New item</key>
+			<string>m20</string>
 			<key>Total</key>
 			<string>135.000đ</string>
 			<key>NameMeal</key>
@@ -241,10 +495,34 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>6</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g10/93969/prof/s576x330/foody-mobile-hmb-gcuon-1-jpg-635466521952288548.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>– 1 kg bột bánh khọt/bột bánh xèo (bột này bạn có thể mua tại siêu thị hoặc cửa hàng tạp hóa, bột đã pha sẵn bột nghệ trong đó, nhưng nếu thích bánh vàng hơn thì bạn có thể cho thêm ½ tsp bột nghệ vào nữa nhé!).
+
+– 400gr thịt nạc dăm.
+
+– 300gr tôm tươi.
+
+– 3 quả trứng.
+
+– 500ml nước cốt dừa.
+
+– 300gr đậu xanh.
+
+– 1 củ cà rốt.
+
+– 1 củ cải trắng.
+
+– Hành lá, hành tím, hành tây.
+
+– Gia vị: tiêu, đường, muối, bột ngọt,…
+
+– Chanh, ớt, nước mắm, rau sống, rau thơm các loại.</string>
+			<key>New item</key>
+			<string>m21</string>
 			<key>Total</key>
 			<string>65.000đ</string>
 			<key>NameMeal</key>
@@ -253,10 +531,23 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>6</integer>
-			<key>URL</key>
-			<string>https://www.bepgiadinh.com/wp-content/uploads/2010/07/18/banh-khot.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>500 gram bột gạo
+100 gram bột năng (nếu không thích bánh dai quá thì cho 50 gram)
+200 gram đậu xanh không vỏ
+500 gram thịt nạc đùi
+200 gram bì
+Thính gạo, tỏi
+1 trái dừa tươi
+Hành lá, ớt
+Đường, nước mắm, muối, dầu ăn
+Rau ăn kèm, giá, dưa leo, củ cải ngâm chua ngọt</string>
+			<key>New item</key>
+			<string>m22</string>
 			<key>Total</key>
 			<string>45.000đ</string>
 			<key>NameMeal</key>
@@ -265,10 +556,18 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>7</integer>
-			<key>URL</key>
-			<string>https://kenh14cdn.com/Uploaded/Share/2010/07/13/130710doisongbanhbeobi4.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string> Bánh canh Trảng Bàng, xương heo, giò heo rút xương hoặc thịt bắp giò heo.
+
+– Nấm rơm, hành tây, cà rốt (hoặc củ cải trắng).
+
+– Hành tím, ngò gai, hành lá, tỏi, chanh và các gia vị cần thiết.</string>
+			<key>New item</key>
+			<string>m23</string>
 			<key>Total</key>
 			<string>85.000đ</string>
 			<key>NameMeal</key>
@@ -277,10 +576,20 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>7</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g2/17302/prof/s576x330/foody-mobile-t1-jpg-593-636127445203788862.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m24</string>
 			<key>Total</key>
 			<string>115.000đ</string>
 			<key>NameMeal</key>
@@ -289,10 +598,28 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>7</integer>
-			<key>URL</key>
-			<string>http://sohatravel.vn/image/data/tin-tuc/am-thuc/Gio-heo-ham-Atiso-1-1.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>New item - 2</key>
+			<string>500 gr bánh phở khô
+
+300 gr thịt heo nạc
+
+300 gr thịt bò
+
+500 gr xương gà
+
+500 gr xương bò
+
+200 gr giá
+
+Xà lách, rau mùi, hành ngò, ớt, tỏi, hành khô
+
+Gia vị: nước mắm, đường, muối, tiêu, hạt nêm, dầu ăn, tương đen, tương đỏ</string>
+			<key>New item</key>
+			<string>m25</string>
 			<key>Total</key>
 			<string>135.000đ</string>
 			<key>NameMeal</key>
@@ -301,10 +628,20 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>8</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g2/19077/prof/s576x330/foody-mobile-1f07govs-jpg-705-635993316411289175.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m26</string>
 			<key>Total</key>
 			<string>625.000đ</string>
 			<key>NameMeal</key>
@@ -313,10 +650,20 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>8</integer>
-			<key>URL</key>
-			<string>http://odacsan.com/wp-content/uploads/2014/10/jof1392348630.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m27</string>
 			<key>Total</key>
 			<string>1.125.000đ</string>
 			<key>NameMeal</key>
@@ -325,10 +672,20 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>8</integer>
-			<key>URL</key>
-			<string>https://i.ytimg.com/vi/WXa6Pm-TU6o/maxresdefault.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m28</string>
 			<key>Total</key>
 			<string>2.000.000đ</string>
 			<key>NameMeal</key>
@@ -337,10 +694,20 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>9</integer>
-			<key>URL</key>
-			<string>http://cafefcdn.com/thumb_w/650/2017/doisongtieudung-083717-321311955-0-1504752025312.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m29</string>
 			<key>Total</key>
 			<string>145.000đ</string>
 			<key>NameMeal</key>
@@ -349,10 +716,20 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>9</integer>
-			<key>URL</key>
-			<string>http://thuexequangngai.net/wp-content/uploads/don-quang-ngai.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m30</string>
 			<key>Total</key>
 			<string>165.000đ</string>
 			<key>NameMeal</key>
@@ -361,10 +738,20 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>9</integer>
-			<key>URL</key>
-			<string>http://quancomcayda.com/uploads/thucdon/2016_05/ca-bong-kho-to.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m31</string>
 			<key>Total</key>
 			<string>750.000đ</string>
 			<key>NameMeal</key>
@@ -373,10 +760,20 @@
 			<integer>1</integer>
 			<key>RestaurantCode</key>
 			<integer>10</integer>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g2/15509/prof/s576x330/foody-mobile-lan-jpg-492-636135906386058964.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m32</string>
 			<key>Total</key>
 			<string>135.000đ</string>
 			<key>NameMeal</key>
@@ -385,10 +782,20 @@
 			<integer>2</integer>
 			<key>RestaurantCode</key>
 			<integer>10</integer>
-			<key>URL</key>
-			<string>http://danangsensetravel.com/view/at_cach-che-bien-banh-trang-cuon-thit-heo-da-nang_8231b11297d17e8e5e390ba7fc1d52b9.jpg</string>
 		</dict>
 		<dict>
+			<key>Goal</key>
+			<string>Cung cấp giàu hàm lượng dinh dưỡng , cung cấp nhiều loại vitamin , giúp tăng đề kháng , khi ăn giúp kích thích miệng , bữa ăn của bạn sẽ cảm thấy ngon miệng , dễ cho đường tiêu hoá , là một trong những món của Siêu đầu bếp nhà hàng , đó là một món ăn dinh dưỡng  </string>
+			<key>Method</key>
+			<string>Giò heo: 1kg, bạn nên chọn phần giò trước cho ngon nhé;
+– Bông actiso: 3 cái, bạn nên chọn loại vừa, không nên chọn những bông già quá hay non quá nhé;
+– Hành lá, ngò rí: 50g;
+– Cà rốt: 1 củ;
+– Bắp cải trắng: 1 bông 100g;
+– Ớt sừng: 3 trái;
+– Gia vị: muối, dầu ăn, hạt nêm, bột ngọt, tiêu, ớt bột, hành khô, tỏi.</string>
+			<key>New item</key>
+			<string>m33</string>
 			<key>Total</key>
 			<string>45.000đ</string>
 			<key>NameMeal</key>
@@ -397,8 +804,6 @@
 			<integer>3</integer>
 			<key>RestaurantCode</key>
 			<integer>10</integer>
-			<key>URL</key>
-			<string>https://i.ytimg.com/vi/EcNvTdni9nQ/hqdefault.jpg</string>
 		</dict>
 	</array>
 </dict>

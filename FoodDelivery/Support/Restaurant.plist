@@ -5,6 +5,8 @@
 	<key>Restaurants</key>
 	<array>
 		<dict>
+			<key>photo</key>
+			<string>res0</string>
 			<key>Properties</key>
 			<string>Quốc Tế</string>
 			<key>Time</key>
@@ -15,10 +17,10 @@
 			<integer>0</integer>
 			<key>NameRestaurant</key>
 			<string>Red Bean Restaurant</string>
-			<key>URL</key>
-			<string>https://images.foody.vn/res/g20/197388/prof/s576x330/foody-upload-api-foody-mobile-red-bean-5-jpg-180428104801.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res1</string>
 			<key>Properties</key>
 			<string>Miền Bắc Việt Nam</string>
 			<key>Time</key>
@@ -29,10 +31,10 @@
 			<integer>1</integer>
 			<key>NameRestaurant</key>
 			<string>Old Hanoi Restaurant</string>
-			<key>URL</key>
-			<string>https://www.restaurants-in-vietnam.com/wp-content/uploads/2011/06/Old-Hanoi-Restaurant2.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res2</string>
 			<key>Properties</key>
 			<string>Quốc Tế</string>
 			<key>Time</key>
@@ -43,10 +45,10 @@
 			<integer>2</integer>
 			<key>NameRestaurant</key>
 			<string>Ngon Villa Restaurant</string>
-			<key>URL</key>
-			<string>http://vinadaytravel.com/wp-content/uploads/2016/07/ngon-villa.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res3</string>
 			<key>Properties</key>
 			<string>Ba Miền</string>
 			<key>Time</key>
@@ -57,10 +59,10 @@
 			<integer>3</integer>
 			<key>NameRestaurant</key>
 			<string>HOME Hà Nội</string>
-			<key>URL</key>
-			<string>http://1.bp.blogspot.com/-ok2vsuwW37U/VkWMPaixI-I/AAAAAAAAAD0/4f1ojoOyUz0/s1600/Villa%2BHome-am-thuc-co-ha-noi.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res4</string>
 			<key>Properties</key>
 			<string>Miền Bắc</string>
 			<key>Time</key>
@@ -72,10 +74,10 @@
 			<key>NameRestaurant</key>
 			<string>Bánh Mì 25
 Madame Hiền</string>
-			<key>URL</key>
-			<string>https://media-cdn.tripadvisor.com/media/photo-s/0b/3d/ab/15/banh-mi-25-chu-n.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res5</string>
 			<key>Properties</key>
 			<string>Hà Nội</string>
 			<key>Time</key>
@@ -86,10 +88,10 @@ Madame Hiền</string>
 			<integer>5</integer>
 			<key>NameRestaurant</key>
 			<string>Bún Chả Ta Hà Nội</string>
-			<key>URL</key>
-			<string>https://dantricdn.com/k:8c1d066f19/2016/05/27/bun-cha-obama-2-1464330524866/quan-bun-cha-se-khong-doi-ten-thanh-quan-obama.JPG</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res6</string>
 			<key>Properties</key>
 			<string>Quốc Tế</string>
 			<key>Time</key>
@@ -106,10 +108,10 @@ Seasons Restaurant Hanoi
 Seasons Restaurant Hanoi
 Seasons Restaurant Hanoi
 Seasons Restaurant Hanoi</string>
-			<key>URL</key>
-			<string>http://www.ahstatic.com/photos/1555_ba_01_p_1024x768.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res7</string>
 			<key>Properties</key>
 			<string>Nam Bộ</string>
 			<key>Time</key>
@@ -122,10 +124,10 @@ Seasons Restaurant Hanoi</string>
 			<string>Restaurant Bun Bo Nam Bo
 RESTAURANT BUN BO NAM BO
 RESTAURANT BUN BO NAM BO</string>
-			<key>URL</key>
-			<string>https://media-cdn.tripadvisor.com/media/photo-s/08/ba/22/b3/bun-bo-nam-bo.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res8</string>
 			<key>Properties</key>
 			<string>Hà Nội</string>
 			<key>Time</key>
@@ -136,10 +138,10 @@ RESTAURANT BUN BO NAM BO</string>
 			<integer>8</integer>
 			<key>NameRestaurant</key>
 			<string>Quan Cau</string>
-			<key>URL</key>
-			<string>http://www.dendau.vn/custom/photolisting3/fullsize/listing_37109/201311071622414vVs5NzC.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res9</string>
 			<key>Properties</key>
 			<string>Miền Trung</string>
 			<key>Time</key>
@@ -150,10 +152,10 @@ RESTAURANT BUN BO NAM BO</string>
 			<integer>9</integer>
 			<key>NameRestaurant</key>
 			<string>Gia Ngu Restaurant</string>
-			<key>URL</key>
-			<string>https://media-cdn.tripadvisor.com/media/photo-s/06/9e/9a/45/getlstd-property-photo.jpg</string>
 		</dict>
 		<dict>
+			<key>photo</key>
+			<string>res10</string>
 			<key>Properties</key>
 			<string>Nhật Bản</string>
 			<key>Time</key>
@@ -164,8 +166,6 @@ RESTAURANT BUN BO NAM BO</string>
 			<integer>10</integer>
 			<key>NameRestaurant</key>
 			<string>Koto Restaurant</string>
-			<key>URL</key>
-			<string>https://www.restaurants-in-vietnam.com/wp-content/uploads/2016/03/koto-4.jpg</string>
 		</dict>
 	</array>
 </dict>

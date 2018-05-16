@@ -10,6 +10,8 @@ import UIKit
 
 class ShowRestaurantViewController: UIViewController {
 
+    var string : String?
+    
     @IBOutlet weak var photoRestaurant: UIImageView!
     @IBOutlet weak var adressLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
@@ -20,7 +22,7 @@ class ShowRestaurantViewController: UIViewController {
         adressLabel.text = UserDefaults.standard.string(forKey: "adress")
         timeLabel.text =  UserDefaults.standard.string(forKey: "time")
         propertiesLabel.text =  UserDefaults.standard.string(forKey: "properties")
-        photoRestaurant.download(from: UserDefaults.standard.string(forKey: "urlRestaurant")!)
+        
         // Do any additional setup after loading the view.
     }
 
