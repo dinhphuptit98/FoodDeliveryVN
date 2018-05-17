@@ -22,7 +22,7 @@
 			<key>photo</key>
 			<string>res1</string>
 			<key>Properties</key>
-			<string>Miền Bắc Việt Nam</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -36,7 +36,7 @@
 			<key>photo</key>
 			<string>res2</string>
 			<key>Properties</key>
-			<string>Quốc Tế</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>8:00-22:00</string>
 			<key>Adress</key>
@@ -50,7 +50,7 @@
 			<key>photo</key>
 			<string>res3</string>
 			<key>Properties</key>
-			<string>Ba Miền</string>
+			<string>Quốc Tế</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -64,7 +64,7 @@
 			<key>photo</key>
 			<string>res4</string>
 			<key>Properties</key>
-			<string>Miền Bắc</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -79,7 +79,7 @@ Madame Hiền</string>
 			<key>photo</key>
 			<string>res5</string>
 			<key>Properties</key>
-			<string>Hà Nội</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -113,7 +113,7 @@ Seasons Restaurant Hanoi</string>
 			<key>photo</key>
 			<string>res7</string>
 			<key>Properties</key>
-			<string>Nam Bộ</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -129,7 +129,7 @@ RESTAURANT BUN BO NAM BO</string>
 			<key>photo</key>
 			<string>res8</string>
 			<key>Properties</key>
-			<string>Hà Nội</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -143,7 +143,7 @@ RESTAURANT BUN BO NAM BO</string>
 			<key>photo</key>
 			<string>res9</string>
 			<key>Properties</key>
-			<string>Miền Trung</string>
+			<string>Việt Nam</string>
 			<key>Time</key>
 			<string>7:00-24:00</string>
 			<key>Adress</key>
@@ -157,7 +157,7 @@ RESTAURANT BUN BO NAM BO</string>
 			<key>photo</key>
 			<string>res10</string>
 			<key>Properties</key>
-			<string>Nhật Bản</string>
+			<string>Quốc Tế</string>
 			<key>Time</key>
 			<string>8:00-22:00</string>
 			<key>Adress</key>

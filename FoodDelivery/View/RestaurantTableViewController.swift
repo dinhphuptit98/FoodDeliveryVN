@@ -12,7 +12,6 @@ class RestaurantTableViewController: UITableViewController {
 //    var restaurants: [Restaurant] = []
     
     
-    var check = false
     override func viewDidLoad() {
         super.viewDidLoad()
         let alert = UIAlertController(title: UserDefaults.standard.string(forKey: "hovaten"), message: "Chúng Tôi Đang Có Chương Trình Giảm Giá Cho Khách Hàng Mới 50% Và Khách Hàng Trên 5 Năm Với 2 Món Ăn Miễn Phí.Hãy Nhanh Tay Đặt Món Để NHận Ưu Đãi Và Thưởng THức Những Món Ăn Dinh Dưỡng Trong Mùa Hè Này", preferredStyle: UIAlertControllerStyle.alert)
@@ -29,7 +28,7 @@ class RestaurantTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     
     // MARK: - Table view data source
 
@@ -62,10 +61,18 @@ class RestaurantTableViewController: UITableViewController {
         UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].adress, forKey: "adress")
         UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].time, forKey: "time")
         UserDefaults.standard.set(DataServices.shared.restaurants[indexPath.row].properties, forKey: "properties")
+    
+    }
+   
+    @IBAction func showButton(_ sender: UIButton) {
+        
+        
+     
+        
+        
+        
         
     }
 
-   
-    
 
 }

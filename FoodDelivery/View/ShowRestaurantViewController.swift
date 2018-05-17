@@ -18,12 +18,12 @@ class ShowRestaurantViewController: UIViewController {
     @IBOutlet weak var propertiesLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = UserDefaults.standard.string(forKey: "name")
-        adressLabel.text = UserDefaults.standard.string(forKey: "adress")
-        timeLabel.text =  UserDefaults.standard.string(forKey: "time")
-        propertiesLabel.text =  UserDefaults.standard.string(forKey: "properties")
-        photoRestaurant.image = UIImage(named: UserDefaults.standard.string(forKey: "photo")!)
-        // Do any additional setup after loading the view.
+//        navigationItem.title =
+//        adressLabel.text =
+//        timeLabel.text =
+//        propertiesLabel.text =
+//        photoRestaurant.image =
+        
     }
 
     override func didReceiveMemoryWarning() {

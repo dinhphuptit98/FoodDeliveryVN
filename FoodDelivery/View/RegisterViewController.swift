@@ -14,13 +14,13 @@ class REGISTERViewController: UIViewController , UITextFieldDelegate {
     @IBOutlet weak var numberPhoneText: UITextField!
     @IBOutlet weak var dangky: UIButton!
     
-
+    let number = Int(arc4random_uniform(UInt32(1000000000)))
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         hovatenText.delegate = self
-        numberPhoneText.delegate = self
+        numberPhoneText.text = String(number)
         
         
         // Do any additional setup after loading the view.
