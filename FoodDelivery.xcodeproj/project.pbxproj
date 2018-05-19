@@ -14,7 +14,6 @@
 		5857461420AC2A9600EB5E3E /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5857461320AC2A9600EB5E3E /* MealTableViewCell.swift */; };
 		A31D305220AA06B500B67002 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D305120AA06B500B67002 /* RestaurantViewCell.swift */; };
 		A32E2E3E20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */; };
-		A32E2E4020AA8C8800BADCF6 /* LOGINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E2E3F20AA8C8800BADCF6 /* LOGINViewController.swift */; };
 		A32E2E4420AAA4F400BADCF6 /* REGISTERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E2E4320AAA4F400BADCF6 /* REGISTERViewController.swift */; };
 		A3CAD4AE20A9B6E500D13085 /* DistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAD4AD20A9B6E500D13085 /* DistrictViewController.swift */; };
 		A3CC2FB020A6FC0300737887 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2FAF20A6FC0300737887 /* Cities.plist */; };
@@ -46,7 +45,6 @@
 		5857461320AC2A9600EB5E3E /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		A31D305120AA06B500B67002 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		A32E2E3D20AA8C6C00BADCF6 /* ShowRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRestaurantViewController.swift; sourceTree = "<group>"; };
-		A32E2E3F20AA8C8800BADCF6 /* LOGINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOGINViewController.swift; sourceTree = "<group>"; };
 		A32E2E4320AAA4F400BADCF6 /* REGISTERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTERViewController.swift; sourceTree = "<group>"; };
 		A3CAD4AD20A9B6E500D13085 /* DistrictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictViewController.swift; sourceTree = "<group>"; };
 		A3CC2FAF20A6FC0300737887 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				A3D17EE120A6E32900FD3C52 /* StartViewController.swift */,
-				A32E2E3F20AA8C8800BADCF6 /* LOGINViewController.swift */,
 				A32E2E4320AAA4F400BADCF6 /* REGISTERViewController.swift */,
 				A3D17ED320A6DD6600FD3C52 /* CityTableViewController.swift */,
 				A3CAD4AD20A9B6E500D13085 /* DistrictViewController.swift */,
@@ -252,7 +249,6 @@
 				A3CC2FC020A6FFCB00737887 /* Restaurant.swift in Sources */,
 				4E1C7E2120AB4B180077DA08 /* Rating.swift in Sources */,
 				A3D17EE220A6E32900FD3C52 /* StartViewController.swift in Sources */,
-				A32E2E4020AA8C8800BADCF6 /* LOGINViewController.swift in Sources */,
 				A3CAD4AE20A9B6E500D13085 /* DistrictViewController.swift in Sources */,
 				A31D305220AA06B500B67002 /* RestaurantViewCell.swift in Sources */,
 				A32E2E4420AAA4F400BADCF6 /* REGISTERViewController.swift in Sources */,
