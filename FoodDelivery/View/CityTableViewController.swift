@@ -49,24 +49,7 @@ class CityTableViewController: UITableViewController {
         DataServices.shared.cityCodeSelected = DataServices.shared.cities[indexPath.row].cityCode
         UserDefaults.standard.set(DataServices.shared.cities[indexPath.row].name,forKey : "City")
     }
-    @IBAction func clickButtonLogOut(_ sender: UIBarButtonItem) {
-        
-        let alert = UIAlertController(title: UserDefaults.standard.string(forKey: "hovaten"), message: "Bạn có muốn đăng xuất không?", preferredStyle: UIAlertControllerStyle.alert)
-        
-        alert.addAction(UIAlertAction(title: "Có", style: UIAlertActionStyle.default, handler: { _ in
-            let application = UIApplication.shared.delegate as! AppDelegate
-            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let rootViewController = storyboard.instantiateViewController(withIdentifier: "LogOut") as! StartViewController
-            let navigationController = UINavigationController(rootViewController: rootViewController)
-            application.window?.rootViewController = navigationController
-            
-        }))
-        alert.addAction(UIAlertAction(title: "Không", style: UIAlertActionStyle.cancel, handler: nil))
-        
-        // show the alert
-        self.present(alert, animated: true, completion: nil)
-        
-    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

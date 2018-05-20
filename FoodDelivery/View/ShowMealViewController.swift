@@ -14,6 +14,7 @@ class ShowMealViewController: UIViewController {
     @IBOutlet weak var mealTotal: UILabel!
     @IBOutlet weak var goal: UITextView!
     @IBOutlet weak var method: UITextView!
+    @IBOutlet weak var giaoHang: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class ShowMealViewController: UIViewController {
         
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        giaoHang.isHidden = false
     }
     
     /*

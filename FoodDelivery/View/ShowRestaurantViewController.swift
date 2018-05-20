@@ -10,19 +10,29 @@ import UIKit
 
 class ShowRestaurantViewController: UIViewController {
 
-    var string : String?
+    var restaurant : Restaurant?
     
     @IBOutlet weak var photoRestaurant: UIImageView!
     @IBOutlet weak var adressLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var propertiesLabel: UILabel!
+    
+    
+    
+    var indexPathForSelected: IndexPath!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        navigationItem.title =
-//        adressLabel.text =
-//        timeLabel.text =
-//        propertiesLabel.text =
-//        photoRestaurant.image =
+        
+                
+                navigationItem.title = UserDefaults.standard.string(forKey: "name")
+                adressLabel.text = UserDefaults.standard.string(forKey: "adress")
+                timeLabel.text = UserDefaults.standard.string(forKey: "time")
+                propertiesLabel.text = UserDefaults.standard.string(forKey: "properties")
+                photoRestaurant.image = UIImage(named: UserDefaults.standard.string(forKey: "photo")!)
+        
         
     }
 

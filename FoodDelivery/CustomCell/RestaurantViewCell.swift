@@ -13,11 +13,21 @@ class RestaurantViewCell: UITableViewCell {
     @IBOutlet weak var labelRestaurant: UILabel!
     @IBOutlet weak var showB: UIButton!
     
+    weak var delegate: RestaurantViewCellDelegate?
+    
+    var indexPath: IndexPath!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
      
         // Initialization code
+    }
+    
+    @IBAction func showButton(_ sender: UIButton) {
+        if indexPath != nil {
+            delegate?.tableView(didSelectedAt: indexPath)
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

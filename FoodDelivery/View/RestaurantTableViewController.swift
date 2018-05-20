@@ -45,9 +45,12 @@ class RestaurantTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as! RestaurantViewCell
+        
+        let indexPathShow = IndexPath(row: indexPath.row, section: indexPath.section)
+        
             cell.labelRestaurant.text =  DataServices.shared.restaurants[indexPath.row].name
             cell.photoRestaurant.image = UIImage(named: DataServices.shared.restaurants[indexPath.row].photo)
-
+         
         return cell
     }
     
@@ -64,15 +67,6 @@ class RestaurantTableViewController: UITableViewController {
     
     }
    
-    @IBAction func showButton(_ sender: UIButton) {
-        
-        
-     
-        
-        
-        
-        
-    }
-
-
 }
+
+
